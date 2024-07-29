@@ -1,0 +1,5 @@
+name: Spectator
+main: gamegam\Spectator\Main
+author: gamegam
+version: 0.1
+api: 5.0.0
