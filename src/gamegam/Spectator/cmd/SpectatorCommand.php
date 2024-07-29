@@ -7,9 +7,12 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\permission\DefaultPermissionNames;
 use pocketmine\player\GameMode;
+use pocketmine\plugin\PluginOwnedTrait;
 use pocketmine\Server;
 
 class SpectatorCommand extends Command{
+
+	use PluginOwnedTrait;
 
 	public function __construct(){
 		parent::__construct("spectator", "This is the spectator's command.", null, [
